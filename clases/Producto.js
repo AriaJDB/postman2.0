@@ -61,7 +61,6 @@ class Producto {
                 precio: this.precio
             }
         }
-        
     }
 }
 

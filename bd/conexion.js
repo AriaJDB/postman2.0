@@ -6,11 +6,13 @@ admin.initializeApp({
 });
 
 const bd=admin.firestore();
-const usuariosBD=bd.collection("miejemploBD");
+const usuariosBD=bd.collection("usuarios");
 const productosBD=bd.collection("productos");
+const ventasBD=bd.collection("ventas");
 
 module.exports={
     usuariosBD,
-    productosBD
+    productosBD,
+    ventasBD
 }
 //console.log(usuariosBD);
